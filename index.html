@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Realco - Dream Home</title>
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="./css/main.css" />
+  
+</head>
+
+<body>
+
+  <header class="header" data-aos="fade-down">
+    <div class="container nav-content">
+      <div class="logo" data-aos="zoom-in">
+        <img src="./images/logo.svg" alt="Realco logo">
+      </div>
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="group">
+        <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+          <path
+            d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+          </path>
+        </svg>
+        <input placeholder="Search" type="search" class="input">
+      </div>
+
+      <button class="header__btn">
+        <i class="fa-solid fa-bag-shopping"></i> Cart
+      </button>
+      <button class="btn-orange">Find a property</button>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="tag">Find your dream place</span>
+        <h1>
+          Find house for your family in minutes
+        </h1>
+        <p>
+          Aenean sodales mauris quis tellus facilisis, vel mattis magna.
+          Interdum curabitur eget aliquam elit in mauris purus.
+        </p>
+        <div class="search-box">
+          <input type="text" placeholder="Search" />
+          <button class="btn-orange">Find property</button>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="./images/left.svg" alt="Dream house" data-aos="fade-left" data-aos-delay="200">
+      </div>
+    </div>
+  </section>
+
+  <main class="main" data-aos="fade-up">
+    <div class="container">
+      <div class="main-container">
+        <ul class="main-list">
+          <li class="main-item" data-aos="fade-right">
+            <p class="main-text">
+              As seen on the world's best <br> magazines and media
+            </p>
+          </li>
+          <li class="main-logos" data-aos="fade-left" data-aos-delay="200">
+            <marquee>
+              <img src="./images/logotip1.svg" alt="">
+              <img src="./images/logotip2.svg" alt="">
+              <img src="./images/logotip3.svg" alt="">
+              <img src="./images/logotip4.svg" alt="">
+              <img src="./images/logotip5.svg" alt="">
+            </marquee>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <section class="canvas" data-aos="fade-up">
+    <div class="container">
+      <div class="canvas-container">
+        <h1 class="canvas-title" data-aos="fade-down">How it works</h1>
+        <p class="canvas-text" data-aos="fade-down" data-aos-delay="200">
+          Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id efficitur pellentesque.
+        </p>
+
+        <ul class="canvas-list">
+          <li class="canvas-item" data-aos="zoom-in" data-aos-delay="200">
+            <img src="./images/uy1.svg" alt="Find property">
+            <h2 class="canvas-item-title">Find property</h2>
+            <p class="canvas-item-text">
+              Odales mauris quis tellus facilisis, vel mattis magna interdum.
+            </p>
+          </li>
+
+          <li class="canvas-item" data-aos="zoom-in" data-aos-delay="400">
+            <img src="./images/uy2.svg" alt="Make deal">
+            <h2 class="canvas-item-title">Make deal</h2>
+            <p class="canvas-item-text">
+              Etiam eget velit vel nulla tincidunt dapibus. Aenean id lorem id sapien fermentum.
+            </p>
+          </li>
+
+          <li class="canvas-item" data-aos="zoom-in" data-aos-delay="600">
+            <img src="./images/uy2.svg" alt="Enjoy home">
+            <h2 class="canvas-item-title">Enjoy your home</h2>
+            <p class="canvas-item-text">
+              Duis ultricies, felis non sodales fermentum, erat libero volutpat eros.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrapper" data-aos="fade-up">
+    <div class="container">
+      <div class="wrapper-container">
+
+        <div class="wrapper-content" data-aos="fade-right">
+          <button class="wrapper-btn1" data-aos="zoom-in">Comfort first</button>
+          <h1 class="wrapper-title" data-aos="fade-right" data-aos-delay="150">
+            The best houses for family comfort
+          </h1>
+          <p class="wrapper-text" data-aos="fade-right" data-aos-delay="300">
+            Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin sollicitudin,
+            lorem non posuere blandit.
+          </p>
+
+          <div class="wrapper-actions" data-aos="zoom-in-up" data-aos-delay="450">
+            <button class="wrapper-btn2">Explore properties</button>
+            <p class="wrapper-link">Contact agent ></p>
+          </div>
+        </div>
+
+        <div class="wrapper-image" data-aos="fade-left" data-aos-delay="300">
+          <img src="./images/mehmonxona.svg" alt="Modern house" class="wrapper-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="box-section">
+    <div class="container">
+      <ul class="box-list">
+        <li class="box-item-img" data-aos="fade-right">
+          <img src="./images/mexmonxona2.svg" alt="Family House">
+        </li>
+
+        <li class="box-item" data-aos="fade-left">
+          <h3 class="box-fashion-title">Fast forward process</h3>
+          <p class="box-fashion-text">
+            Ut vitae nisi eu nisi maximus condimentum ac id purus. Duis sit amet mi arcu praesent nec
+            felis nisl.
+          </p>
+
+          <div class="box">
+            <div class="fashion-box" data-aos="fade-up" data-aos-delay="100">
+              <img src="./images/iconka.svg" alt="">
+              <h3 class="box-title">Affordable prices</h3>
+              <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros.</p>
+            </div>
+
+            <div class="fashion-box" data-aos="fade-up" data-aos-delay="200">
+              <img src="./images/ikonka2.svg">
+              <h3 class="box-title">Less paper work</h3>
+              <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros.</p>
+            </div>
+          </div>
+
+          <span class="box-span">
+            <button class="box-btn">Explore properties</button>
+            <a class="box-link" href="#">Contact agent ></a>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <main>
+    <section class="property-section">
+      <div class="container">
+        <div class="property-container" data-aos="fade-up">
+          <h4 class="property-heading">Houses in your favorite area</h4>
+
+          <ul class="property-list">
+            <li class="property-card" data-aos="zoom-in">
+              <img src="./images/dom1.svg" alt="House 1" />
+              <h4 class="property-title">Cozy studio in Los Angeles</h4>
+              <p class="property-price">$ 1,200.00 USD</p>
+              <blockquote class="property-address">
+                2263 Southlea, Los Angeles
+              </blockquote>
+            </li>
+
+            <li class="property-card" data-aos="zoom-in" data-aos-delay="100">
+              <img src="./images/dom2.svg" alt="House 2" />
+              <h4 class="property-title">Cozy studio in Los Angeles</h4>
+              <p class="property-price">$ 1,200.00 USD</p>
+              <blockquote class="property-address">
+                2263 Southlea, Los Angeles
+              </blockquote>
+            </li>
+
+            <li class="property-card" data-aos="zoom-in" data-aos-delay="200">
+              <img src="./images/dom3.svg" alt="House 3" />
+              <h4 class="property-title">Cozy studio in Los Angeles</h4>
+              <p class="property-price">$ 1,200.00 USD</p>
+              <blockquote class="property-address">
+                2263 Southlea, Los Angeles
+              </blockquote>
+            </li>
+
+            <li class="property-card" data-aos="zoom-in" data-aos-delay="300">
+              <img src="./images/dom4.svg" alt="House 4" />
+              <h4 class="property-title">Cozy studio in Los Angeles</h4>
+              <p class="property-price">$ 1,200.00 USD</p>
+              <blockquote class="property-address">
+                2263 Southlea, Los Angeles
+              </blockquote>
+            </li>
+
+            <li class="property-card" data-aos="zoom-in" data-aos-delay="400">
+              <img src="./images/dom5.svg" alt="House 5" />
+              <h4 class="property-title">Cozy studio in Los Angeles</h4>
+              <p class="property-price">$ 1,200.00 USD</p>
+              <blockquote class="property-address">
+                2263 Southlea, Los Angeles
+              </blockquote>
+            </li>
+
+            <li class="property-card" data-aos="zoom-in" data-aos-delay="500">
+              <img src="./images/dom6.svg" alt="House 6" />
+              <h4 class="property-title">Cozy studio in Los Angeles</h4>
+              <p class="property-price">$ 1,200.00 USD</p>
+              <blockquote class="property-address">
+                2263 Southlea, Los Angeles
+              </blockquote>
+            </li>
+          </ul>
+
+          <span class="property-span">
+            <button class="property-btn">Explore properties</button>
+            <a class="property-link" href="#">Contact agent ></a>
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <article>
+    <div class="article">
+      <div class="container">
+        <div class="article-container">
+          <h1>Locations</h1>
+          <p>
+            Nunc mi ante, fringilla eget iaculis et, maximus vel purus integer lacus urna, aliquet non nisl sit amet.
+          </p>
+
+          <ul class="article-list">
+            <li class="article-item" data-aos="fade-up">
+              <h5 class="article-title">San Francisco, CA</h5>
+              <a class="article-link" href="#" target="_blank">View Properties ></a>
+            </li>
+            <li class="article-item" data-aos="fade-up" data-aos-delay="100">
+              <h5 class="article-title">Los Angeles, CA</h5>
+              <a class="article-link" href="#" target="_blank">View Properties ></a>
+            </li>
+            <li class="article-item" data-aos="fade-up" data-aos-delay="200">
+              <h5 class="article-title">San Diego, CA</h5>
+              <a class="article-link" href="#" target="_blank">View Properties ></a>
+            </li>
+            <li class="article-item" data-aos="fade-up" data-aos-delay="300">
+              <h5 class="article-title">New York, NY</h5>
+              <a class="article-link" href="#" target="_blank">View Properties ></a>
+            </li>
+            <li class="article-item" data-aos="fade-up" data-aos-delay="400">
+              <h5 class="article-title">Las Vegas, NV</h5>
+              <a class="article-link" href="#" target="_blank">View Properties ></a>
+            </li>
+            <li class="article-item" data-aos="fade-up" data-aos-delay="500">
+              <h5 class="article-title">Miami, FL</h5>
+              <a class="article-link" href="#" target="_blank">View Properties ></a>
+            </li>
+          </ul>
+
+          <span class="article-action" data-aos="fade-up" data-aos-delay="600">
+            <button class="article-btn">Explore properties</button>
+            <a class="article-link1" href="#">Contact agent ></a>
+          </span>
+
+        </div>
+      </div>
+    </div>
+  </article>
+  <section class="feature" data-aos="fade-up">
+    <div class="container">
+      <div class="feature-wrapper">
+        <ul class="feature-list">
+          <li class="feature-item">
+            <img src="./images/rum1.svg" alt="Family Icon" class="feature-img" />
+            <h6 class="feature-heading">Families are our priority</h6>
+            <p class="feature-desc">
+              Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non,
+              placerat vel arcu. In non consectetur lorem. Morbi non varius sapien
+              suscipit mauri.
+            </p>
+            <button class="feature-btn">
+              <a class="feature-link" href="#">Get started</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials" data-aos="fade-up">
+    <div class="container">
+      <div class="testimonials-wrapper">
+        <h2 class="testimonials-title">What customers say</h2>
+        <p class="testimonials-subtitle">
+          Faucibus orci luctus et ultrices posuere cubilia curae.
+        </p>
+
+        <ul class="testimonials-list">
+          <li class="testimonials-item" data-aos="fade-up">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonials-text">
+              "Aliquam erat volutpat. Nulla pretium nec urna et convallis. Ut varius mi lacus, nec molestie libero
+              ultricies nec."
+            </p>
+            <div class="testimonials-user">
+              <img src="./images/dom1.svg" alt="Michael Webb">
+              <div>
+                <h4>Michael Webb</h4>
+                <p>Customer</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="testimonials-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="testimonials-text">
+              "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+            </p>
+            <div class="testimonials-user">
+              <img src="./images/dom2.svg" alt="Amber Keene">
+              <div>
+                <h4>Amber Keene</h4>
+                <p>Customer</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="testimonials-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="testimonials-text">
+              "Condimentum viverra orci. Pellentesque suscipit odio nisi, non ultricies purus mattis eget."
+            </p>
+            <div class="testimonials-user">
+              <img src="./images/dom3.svg" alt="Sarah Tarleton">
+              <div>
+                <h4>Sarah Tarleton</h4>
+                <p>Customer</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="blog">
+    <div class="container">
+      <div class="blog-wrapper">
+        <h1 class="blog-title" data-aos="fade-up">Latest posts</h1>
+        <p class="blog-subtitle" data-aos="fade-up" data-aos-delay="100">
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+          Praesent efficitur nibh massa morbi sagittis ornare dui in ornare.
+        </p>
+
+        <ul class="blog-list">
+          <li class="blog-item" data-aos="fade-up" data-aos-delay="200">
+            <img src="./images/dom1.svg" alt="">
+            <h1 class="blog-item-title">The 9 best homes in New York</h1>
+            <p class="blog-item-text">Integer tincidunt rutrum faucibus. Proin sit amet varius arcu.
+              Aliquam vel leo augue donec.</p>
+            <a class="blog-item-link" href="#">Read more ></a>
+          </li>
+
+          <li class="blog-item" data-aos="fade-up" data-aos-delay="300">
+            <img src="./images/dom2.svg" alt="">
+            <h1 class="blog-item-title">How to easily buy a house with Realco</h1>
+            <p class="blog-item-text">Integer tincidunt rutrum faucibus. Proin sit amet varius arcu.
+              Aliquam vel leo augue donec.</p>
+            <a class="blog-item-link" href="#">Read more ></a>
+          </li>
+
+          <li class="blog-item" data-aos="fade-up" data-aos-delay="400">
+            <img src="./images/dom3.svg" alt="">
+            <h1 class="blog-item-title">Renting houses - complete guide</h1>
+            <p class="blog-item-text">Integer tincidunt rutrum faucibus. Proin sit amet varius arcu.
+              Aliquam vel leo augue donec.</p>
+            <a class="blog-item-link" href="#">Read more ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer" data-aos="fade-up">
+    <div class="container">
+      <div class="footer-container">
+        <h2 class="footer-title-name">Realco</h2>
+
+        <ul class="footer-list1">
+          <li><a class="footer-link" href="#">Pages</a></li>
+          <li><a class="footer-link" href="#">Home</a></li>
+          <li><a class="footer-link" href="#">About</a></li>
+          <li><a class="footer-link" href="#">Blog</a></li>
+          <li><a class="footer-link" href="#">Agents</a></li>
+          <li><a class="footer-link" href="#">Contact</a></li>
+          <li><a class="footer-link" href="#">FAQs</a></li>
+          <li><a class="footer-link" href="#">Properties</a></li>
+        </ul>
+
+        <ul class="footer-list2">
+          <li><a class="footer-link" href="#">CMS Pages</a></li>
+          <li><a class="footer-link" href="#">Property</a></li>
+          <li><a class="footer-link" href="#">Property Single</a></li>
+          <li><a class="footer-link" href="#">Blog Categories</a></li>
+          <li><a class="footer-link" href="#">Blog Single</a></li>
+          <li><a class="footer-link" href="#">Agent Single</a></li>
+        </ul>
+
+        <ul class="footer-list3">
+          <li><a class="footer-link" href="#">Utility Pages</a></li>
+          <li><a class="footer-link" href="#">Style Guide</a></li>
+          <li><a class="footer-link" href="#">Changelog</a></li>
+          <li><a class="footer-link" href="#">Licenses</a></li>
+          <li><a class="footer-link" href="#">404</a></li>
+          <li><a class="footer-link" href="#">Password</a></li>
+          <li><a class="footer-link" href="#">Search</a></li>
+        </ul>
+
+        <ul class="footer-list4">
+          <li>
+            <h2 class="footer-title">Subscribe</h2>
+            <p class="footer-text">
+              Join our newsletter to stay up to date on features and releases.
+            </p>
+            <input class="footer-input" type="email" placeholder="Enter your email" />
+            <button class="footer-btn" type="submit">Subscribe</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const navMenu = document.querySelector(".nav-menu");
+    menuBtn.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+
+    const backgrounds = [
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1600&q=80"
+    ];
+
+    let index = 0;
+    const body = document.body;
+    setInterval(() => {
+      index = (index + 1) % backgrounds.length;
+      body.style.backgroundImage = `url(${backgrounds[index]})`;
+    }, 10000);
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true,
+      offset: 100,
+      easing: "ease-in-out",
+    });
+  </script>
+
+</body>
+
+</html>
